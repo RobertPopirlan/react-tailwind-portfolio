@@ -10,6 +10,7 @@ import tailwind from '../assets/tailwind.png'
 import solidworks from '../assets/solidworks.png'
 import linux from '../assets/linux.png'
 import catia from '../assets/catia.png'
+import java from '../assets/java.png'
 
 
 
@@ -75,6 +76,12 @@ const techs =[
         src:catia,
         title:'Catia',
         style:'shadow-blue-600'
+    },
+    {
+        id:10,
+        src:java,
+        title:'Java',
+        style:'shadow-red-700'
     },
    
 
