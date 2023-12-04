@@ -19,7 +19,7 @@ const Home = () => {
         </Link>
       </div>
       </div>
-      <div className='rounded-2xl bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-green-300 via-cyan-400 to-purple-400 overflow-hidden animate-fade animate-duration-1000 animate-ease-in-out shadow-lg shadow-cyan-500 '>
+      <div className='rounded-2xl bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-green-300 via-cyan-400 to-purple-400 overflow-hidden  shadow-lg shadow-cyan-500 '>
         <img src={heroImage} alt='my profile' class=" rounder-2xl mx-auto w-2/3 md:w-full"></img>
       </div>
     </div>
