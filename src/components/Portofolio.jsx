@@ -25,14 +25,15 @@ const Portofolio = () => {
     },
     {id:6,
         src:reactWeather,
-    }
+    },
+   
 
     ]
   return (
-    <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
+    <div name="portfolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white  '>
 
 <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
-<div className='pb-8'>
+<div className='pb-0'>
 <p className='text-4xl font-bold inline border-b-4 px-2'>Portfolio</p>
 <p className='py-6'>My work not actualy</p>
 
@@ -57,6 +58,7 @@ portfolios.map(({id,src})=>(
 </div>
 
 </div>
+
 
     </div>
   )

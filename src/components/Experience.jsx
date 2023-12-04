@@ -9,6 +9,8 @@ import github from '../assets/github.png'
 import tailwind from '../assets/tailwind.png'
 import solidworks from '../assets/solidworks.png'
 import linux from '../assets/linux.png'
+import catia from '../assets/catia.png'
+
 
 
 const Experience = () => {
@@ -56,6 +58,7 @@ const techs =[
         title:'Linux',
         style:'shadow-yellow-500'
     },
+    
     {
         id:8,
         src:github,
@@ -66,15 +69,21 @@ const techs =[
         id:9,
         src:solidworks,
         title:'SolidWorks',
-        style:'shadow-red-500'
+        style:'shadow-red-600'
+    }, {
+        id:10,
+        src:catia,
+        title:'Catia',
+        style:'shadow-blue-600'
     },
+   
 
 
 ]
 
   return (
-    <div name='experience' className='bg-gradient-to-b from-gray-800 to-black w-full h-screen'>
-        <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
+    <div name='experience' className='bg-gradient-to-b from-gray-800 to-black w-full flex'>
+        <div className='max-w-screen-lg mx-auto p-4  flex-col justify-center w-full h-sfull text-white'>
             <div>
                 <p className='text-4xl font-bold border-b-4 border-gray-500 p-2 inline'>Experience</p>
                 <p className='py-6'>This are some of the things i know (and some that i am working on)</p>
@@ -89,12 +98,20 @@ const techs =[
         <img src={src} alt="" className='w-20 mx-auto'/>
         <p className='mt-4'>{title}</p>
     </div>
+    
     )) 
+    
    }
+
                
             </div>
+
+
         </div>
+
+        
     </div>
+    
   )
 }
 

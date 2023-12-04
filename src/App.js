@@ -7,7 +7,8 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 function App() {
   return (
-    <div><NavBar/>
+    <div>
+    <NavBar/>
     <Home/>
     <SocialLinks/>
     <About/>
